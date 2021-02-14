@@ -87,17 +87,6 @@ Use the finalScore function below to do the following:
 }
 */ 
 
-// function finalScore(inning){
-// let score = {home:0,
-//              away:0}
-//              for(let i = 0; i < inning; i++){
-//                score.home = score.home + inning();
-//                score.away = score.away + inning();
-//              }
-//              return score
-//             }
-
-//             console.log(finalScore(inning))
 
 function finalScore(inningCB, numCB){
   let overallScore = {Home: 0, Away: 0};
